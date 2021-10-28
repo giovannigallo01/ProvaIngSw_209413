@@ -28,7 +28,7 @@ public class MyUtilListTest {
 	
 	@Test(expected = IllegalArgumentException.class)
 	public void sortThrowsException() {
-		myUtilList.sort(null, 2);
+		myUtilList.sort(null, 2); // al posto di null ci andrebbe una lista (ma non ricordo come si fa)
 		myUtilList.sort(null, -1);
 	}
 	
